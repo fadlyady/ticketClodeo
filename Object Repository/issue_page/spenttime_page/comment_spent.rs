@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wrapper_tracker</name>
+   <name>comment_spent</name>
    <tag></tag>
-   <elementGuidId>536af74d-3fbc-4a7a-b5c5-e761f7494064</elementGuidId>
+   <elementGuidId>094d3491-0361-4fe5-85df-a1c57f785e3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']</value>
+         <value>//input[@id='time_entry_comments']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

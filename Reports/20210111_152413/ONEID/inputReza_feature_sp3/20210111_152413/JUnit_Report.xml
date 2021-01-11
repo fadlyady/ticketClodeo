@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="inputReza_feature_sp3" time="40.917" tests="2" failures="1" errors="0">
+   <testsuite name="inputReza_feature_sp3" tests="2" failures="1" errors="0" time="40.917" timestamp="2021-01-11 15:24:19" hostname="Eldo - LAPTOP-JS0M5C55" id="Test Suites/ONEID/inputReza_feature_sp3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_152413\\ONEID\\inputReza_feature_sp3\\20210111_152413"/>
+         <property name="logFiles" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_152413\\ONEID\\inputReza_feature_sp3\\20210111_152413\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_152413\\ONEID\\inputReza_feature_sp3\\20210111_152413\\1610353498525.png, C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_152413\\ONEID\\inputReza_feature_sp3\\20210111_152413\\1610353498885.png"/>
+         <property name="hostName" value="Eldo - LAPTOP-JS0M5C55"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.138.2"/>
+         <property name="sessionId" value="e5b2d5af580d7976269b579d555b15ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_testcase/login" time="11.992" classname="Test Cases/login_testcase/login" status="PASSED">
+         <system-out><![CDATA[2021-01-11 15:24:19 - [TEST_CASE][PASSED] - Test Cases/login_testcase/login: Test Cases/login_testcase/login
+
+2021-01-11 15:24:19 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://internal-redmine.clodeo.id/login'
+
+2021-01-11 15:24:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-11 15:24:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-11 15:24:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://internal-redmine.clodeo.id/login'
+
+2021-01-11 15:24:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login_page/login_container"), 5): Object 'Object Repository/login_page/login_container' is present
+
+2021-01-11 15:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/login_page/login_container' is present
+
+2021-01-11 15:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("login_page/username_field"), username): Text 'eldofadliadi' is set on object 'Object Repository/login_page/username_field'
+
+2021-01-11 15:24:27 - [MESSAGE][PASSED] - Text 'eldofadliadi' is set on object 'Object Repository/login_page/username_field'
+
+2021-01-11 15:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("login_page/pass_field"), password): Text 'eldo12345' is set on object 'Object Repository/login_page/pass_field'
+
+2021-01-11 15:24:28 - [MESSAGE][PASSED] - Text 'eldo12345' is set on object 'Object Repository/login_page/pass_field'
+
+2021-01-11 15:24:28 - [TEST_STEP][PASSED] - click(findTestObject("login_page/submit_login")): Object: 'Object Repository/login_page/submit_login' is clicked on
+
+2021-01-11 15:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/submit_login' is clicked on
+
+2021-01-11 15:24:30 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("login_page/flash_error"), 5): Web element with id: 'Object Repository/login_page/flash_error' located by 'By.xpath: //div[@id='flash_error']' is not present after '5' second(s)
+
+2021-01-11 15:24:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/login_page/flash_error' located by 'By.xpath: //div[@id='flash_error']' is not present after '5' second(s)
+
+2021-01-11 15:24:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("home_page/wrapper_home"), 5): Object 'Object Repository/home_page/wrapper_home' is present
+
+2021-01-11 15:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/wrapper_home' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OneID/rezha/feature_sp3" time="27.847" classname="Test Cases/OneID/rezha/feature_sp3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OneID/rezha/feature_sp3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-01-11 15:24:31 - [TEST_CASE][FAILED] - Test Cases/OneID/rezha/feature_sp3: Test Cases/OneID/rezha/feature_sp3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-01-11 15:24:31 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE)
+
+2021-01-11 15:24:31 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE)
+
+2021-01-11 15:24:31 - [TEST_STEP][PASSED] - setText(findTestObject("home_page/search_field"), backlog, CONTINUE_ON_FAILURE): Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 15:24:32 - [MESSAGE][PASSED] - Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 15:24:32 - [TEST_STEP][PASSED] - submit(findTestObject("home_page/search_field"), CONTINUE_ON_FAILURE): The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 15:24:39 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 15:24:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/add_subtask"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 15:24:40 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 15:24:40 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/add_subtask"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 15:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 15:24:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("issue_page/wrapper_issue"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 15:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 15:24:43 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/tracker/feature_tracker' is clicked on
+
+2021-01-11 15:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/tracker/feature_tracker' is clicked on
+
+2021-01-11 15:24:43 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2021-01-11 15:24:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-11 15:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/subject_issue"), subject, CONTINUE_ON_FAILURE): Text 'Setup integrasi ke OneID' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 15:24:49 - [MESSAGE][PASSED] - Text 'Setup integrasi ke OneID' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 15:24:49 - [TEST_STEP][NOT_RUN] - setText(findTestObject("issue_page/description_issue"), description, CONTINUE_ON_FAILURE): NOT_RUN: setText(findTestObject("issue_page/description_issue"), description, CONTINUE_ON_FAILURE)
+
+2021-01-11 15:24:49 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("issue_page/description_issue"), description, CONTINUE_ON_FAILURE)
+
+2021-01-11 15:24:49 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/assigne/reza' is clicked on
+
+2021-01-11 15:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/assigne/reza' is clicked on
+
+2021-01-11 15:24:49 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/targetversion/oneID' is clicked on
+
+2021-01-11 15:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/targetversion/oneID' is clicked on
+
+2021-01-11 15:24:49 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/estimated_time"), estimated, CONTINUE_ON_FAILURE): Text '3' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 15:24:50 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 15:24:50 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/storypoints/sp3"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/storypoints/sp3' is clicked on
+
+2021-01-11 15:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/storypoints/sp3' is clicked on
+
+2021-01-11 15:24:50 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/create_btn' is clicked on
+
+2021-01-11 15:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/create_btn' is clicked on
+
+2021-01-11 15:24:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3): Object 'Object Repository/issue_page/wrapper_tracker' is present
+
+2021-01-11 15:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_tracker' is present
+
+2021-01-11 15:24:54 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("issue_page/flash_notice"), 3): Unable to verify object 'Object Repository/issue_page/flash_notice' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-01-11 15:24:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@title='Add One ID Generator']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-11 15:24:58 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_152413\\ONEID\\inputReza_feature_sp3\\20210111_152413\\1610353498525.png]]
+
+2021-01-11 15:24:59 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/issue_page/flash_notice' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_152413\\ONEID\\inputReza_feature_sp3\\20210111_152413\\1610353498885.png]]]]></system-out>
+         <system-err><![CDATA[2021-01-11 15:24:31 - [TEST_CASE][FAILED] - Test Cases/OneID/rezha/feature_sp3: Test Cases/OneID/rezha/feature_sp3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-11 15:24:19 - [TEST_SUITE][FAILED] - inputReza_feature_sp3: Test Cases/OneID/rezha/feature_sp3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-01-11 15:24:19 - [TEST_SUITE][FAILED] - inputReza_feature_sp3: Test Cases/OneID/rezha/feature_sp3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/issue_page/flash_notice' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1461)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at feature_sp3.run(feature_sp3:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610353453041.run(TempTestSuite1610353453041.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/issue_page/flash_notice' located by '//a[@title='Add One ID Generator']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wrapper_tracker</name>
+   <name>list_issue</name>
    <tag></tag>
-   <elementGuidId>536af74d-3fbc-4a7a-b5c5-e761f7494064</elementGuidId>
+   <elementGuidId>4d957e08-f4d3-481e-93ee-e67368b4f5dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']</value>
+         <value>//div[@id='issue_tree']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

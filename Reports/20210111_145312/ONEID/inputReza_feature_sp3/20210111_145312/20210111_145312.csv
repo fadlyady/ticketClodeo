@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+inputReza_feature_sp3,Chrome 87.0.4280.141,,,2021-01-11 14:53:18,2021-01-11 14:54:34,1m - 15.439s,ERROR
+,,,,,,,
+Test Cases/login_testcase/login,Chrome 87.0.4280.141,,,2021-01-11 14:53:18,2021-01-11 14:53:30,12.200s,PASSED
+openBrowser(url),Chrome 87.0.4280.141,,,2021-01-11 14:53:19,2021-01-11 14:53:26,7.259s,PASSED
+"verifyElementPresent(findTestObject(""login_page/login_container""), 5)",Chrome 87.0.4280.141,,,2021-01-11 14:53:26,2021-01-11 14:53:26,0.312s,PASSED
+"setText(findTestObject(""login_page/username_field""), username)",Chrome 87.0.4280.141,,,2021-01-11 14:53:26,2021-01-11 14:53:27,0.593s,PASSED
+"setText(findTestObject(""login_page/pass_field""), password)",Chrome 87.0.4280.141,,,2021-01-11 14:53:27,2021-01-11 14:53:27,0.614s,PASSED
+"click(findTestObject(""login_page/submit_login""))",Chrome 87.0.4280.141,,,2021-01-11 14:53:27,2021-01-11 14:53:30,2.398s,PASSED
+"verifyElementNotPresent(findTestObject(""login_page/flash_error""), 5)",Chrome 87.0.4280.141,,,2021-01-11 14:53:30,2021-01-11 14:53:30,0.482s,PASSED
+"waitForElementPresent(findTestObject(""home_page/wrapper_home""), 5)",Chrome 87.0.4280.141,,,2021-01-11 14:53:30,2021-01-11 14:53:30,0.288s,PASSED
+,,,,,,,
+Test Cases/OneID/rezha/feature_sp3,Chrome 87.0.4280.141,,,2021-01-11 14:53:31,2021-01-11 14:54:10,39.833s,FAILED
+"callTestCase(findTestCase(""login_testcase/login""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 14:53:31,2021-01-11 14:53:31,0.002s,NOT_RUN
+"setText(findTestObject(""home_page/search_field""), backlog)",Chrome 87.0.4280.141,,,2021-01-11 14:53:31,2021-01-11 14:53:31,0.609s,PASSED
+"submit(findTestObject(""home_page/search_field""))",Chrome 87.0.4280.141,,,2021-01-11 14:53:31,2021-01-11 14:53:34,2.572s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/add_subtask""), 3)",Chrome 87.0.4280.141,,,2021-01-11 14:53:34,2021-01-11 14:53:34,0.497s,PASSED
+"click(findTestObject(""issue_page/add_subtask""))",Chrome 87.0.4280.141,,,2021-01-11 14:53:34,2021-01-11 14:53:35,0.303s,PASSED
+"waitForElementPresent(findTestObject(""issue_page/wrapper_issue""), 3)",Chrome 87.0.4280.141,,,2021-01-11 14:53:35,2021-01-11 14:53:39,4.087s,PASSED
+"click(findTestObject(""issue_page/tracker/feature_tracker""))",Chrome 87.0.4280.141,,,2021-01-11 14:53:39,2021-01-11 14:54:10,31.578s,FAILED
+,,,,,,,
+Test Cases/OneID/rezha/feature_sp3,Chrome 87.0.4280.141,,,2021-01-11 14:54:10,2021-01-11 14:54:23,12.502s,ERROR
+"callTestCase(findTestCase(""login_testcase/login""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 14:54:10,2021-01-11 14:54:10,0.001s,NOT_RUN
+"setText(findTestObject(""home_page/search_field""), backlog)",Chrome 87.0.4280.141,,,2021-01-11 14:54:10,2021-01-11 14:54:11,0.576s,PASSED
+"submit(findTestObject(""home_page/search_field""))",Chrome 87.0.4280.141,,,2021-01-11 14:54:11,2021-01-11 14:54:13,2.540s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/add_subtask""), 3)",Chrome 87.0.4280.141,,,2021-01-11 14:54:13,2021-01-11 14:54:14,0.586s,PASSED
+"click(findTestObject(""issue_page/add_subtask""))",Chrome 87.0.4280.141,,,2021-01-11 14:54:14,2021-01-11 14:54:16,1.889s,PASSED
+"waitForElementPresent(findTestObject(""issue_page/wrapper_issue""), 3)",Chrome 87.0.4280.141,,,2021-01-11 14:54:16,2021-01-11 14:54:16,0.275s,PASSED
+"click(findTestObject(""issue_page/tracker/feature_tracker""))",Chrome 87.0.4280.141,,,2021-01-11 14:54:16,2021-01-11 14:54:17,0.306s,PASSED
+delay(5),Chrome 87.0.4280.141,,,2021-01-11 14:54:17,2021-01-11 14:54:22,5.021s,PASSED
+"setText(findTestObject(""issue_page/subject_issue""), subject)",Chrome 87.0.4280.141,,,2021-01-11 14:54:22,2021-01-11 14:54:22,0.643s,PASSED
+"setText(findTestObject(""issue_page/description_issue""), description)",Chrome 87.0.4280.141,,,2021-01-11 14:54:22,2021-01-11 14:54:22,0.000s,NOT_RUN
+"click(findTestObject(""issue_page/assigne/reza""))",Chrome 87.0.4280.141,,,2021-01-11 14:54:22,2021-01-11 14:54:23,0.316s,PASSED
+"click(findTestObject(""issue_page/targetversion/oneID""))",Chrome 87.0.4280.141,,,2021-01-11 14:54:23,2021-01-11 14:54:23,0.304s,PASSED
+"setText(findTestObject(""issue_page/estimated_time""), estimatedtime)",Chrome 87.0.4280.141,,,2021-01-11 14:54:23,2021-01-11 14:54:23,0.032s,PASSED
+,,,,,,,
+Test Cases/validation/inputticketvalidation,Chrome 87.0.4280.141,,,2021-01-11 14:54:23,2021-01-11 14:54:28,5.395s,FAILED
+"setText(findTestObject(""home_page/search_field""), backlog)",Chrome 87.0.4280.141,,,2021-01-11 14:54:23,2021-01-11 14:54:24,0.601s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/list_issue""), 3)",Chrome 87.0.4280.141,,,2021-01-11 14:54:24,2021-01-11 14:54:28,4.637s,FAILED
+,,,,,,,
+Test Cases/validation/inputticketvalidation,Chrome 87.0.4280.141,,,2021-01-11 14:54:28,2021-01-11 14:54:34,5.255s,FAILED
+"setText(findTestObject(""home_page/search_field""), backlog)",Chrome 87.0.4280.141,,,2021-01-11 14:54:28,2021-01-11 14:54:29,0.553s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/list_issue""), 3)",Chrome 87.0.4280.141,,,2021-01-11 14:54:29,2021-01-11 14:54:34,4.684s,FAILED

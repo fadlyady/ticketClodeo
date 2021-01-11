@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wrapper_tracker</name>
+   <name>hours_spent</name>
    <tag></tag>
-   <elementGuidId>536af74d-3fbc-4a7a-b5c5-e761f7494064</elementGuidId>
+   <elementGuidId>8cd080b3-1e63-472b-877f-9d2f868abd2f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']</value>
+         <value>//input[@id='time_entry_hours']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

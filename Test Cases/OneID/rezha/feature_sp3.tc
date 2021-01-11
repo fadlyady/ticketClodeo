@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>feature_sp3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9336c505-71f5-4543-9dae-b4e25ca42a4f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>498a54dc-f237-46ca-8d76-0a773b619023</id>
+      <masked>false</masked>
+      <name>backlog</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42fa6675-56eb-4909-a22a-371b5bb1c14b</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>580bc2de-69d8-401b-932d-8a5c693be18e</id>
+      <masked>false</masked>
+      <name>estimated</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+inputReza_feature_sp3,Chrome 87.0.4280.141,,,2021-01-11 15:24:19,2021-01-11 15:24:59,40.049s,FAILED
+,,,,,,,
+Test Cases/login_testcase/login,Chrome 87.0.4280.141,,,2021-01-11 15:24:19,2021-01-11 15:24:31,11.992s,PASSED
+openBrowser(url),Chrome 87.0.4280.141,,,2021-01-11 15:24:19,2021-01-11 15:24:26,6.971s,PASSED
+"verifyElementPresent(findTestObject(""login_page/login_container""), 5)",Chrome 87.0.4280.141,,,2021-01-11 15:24:26,2021-01-11 15:24:27,0.428s,PASSED
+"setText(findTestObject(""login_page/username_field""), username)",Chrome 87.0.4280.141,,,2021-01-11 15:24:27,2021-01-11 15:24:27,0.629s,PASSED
+"setText(findTestObject(""login_page/pass_field""), password)",Chrome 87.0.4280.141,,,2021-01-11 15:24:27,2021-01-11 15:24:28,0.555s,PASSED
+"click(findTestObject(""login_page/submit_login""))",Chrome 87.0.4280.141,,,2021-01-11 15:24:28,2021-01-11 15:24:30,2.404s,PASSED
+"verifyElementNotPresent(findTestObject(""login_page/flash_error""), 5)",Chrome 87.0.4280.141,,,2021-01-11 15:24:30,2021-01-11 15:24:31,0.463s,PASSED
+"waitForElementPresent(findTestObject(""home_page/wrapper_home""), 5)",Chrome 87.0.4280.141,,,2021-01-11 15:24:31,2021-01-11 15:24:31,0.288s,PASSED
+,,,,,,,
+Test Cases/OneID/rezha/feature_sp3,Chrome 87.0.4280.141,,,2021-01-11 15:24:31,2021-01-11 15:24:59,27.847s,FAILED
+"callTestCase(findTestCase(""login_testcase/login""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:31,2021-01-11 15:24:31,0.001s,NOT_RUN
+"setText(findTestObject(""home_page/search_field""), backlog, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:31,2021-01-11 15:24:32,0.597s,PASSED
+"submit(findTestObject(""home_page/search_field""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:32,2021-01-11 15:24:39,7.034s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/add_subtask""), 3, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:39,2021-01-11 15:24:40,1.216s,PASSED
+"click(findTestObject(""issue_page/add_subtask""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:40,2021-01-11 15:24:42,2.466s,PASSED
+"waitForElementPresent(findTestObject(""issue_page/wrapper_issue""), 3, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:42,2021-01-11 15:24:43,0.283s,PASSED
+"click(findTestObject(""issue_page/tracker/feature_tracker""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:43,2021-01-11 15:24:43,0.317s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:43,2021-01-11 15:24:48,5.019s,PASSED
+"setText(findTestObject(""issue_page/subject_issue""), subject, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:48,2021-01-11 15:24:49,0.623s,PASSED
+"setText(findTestObject(""issue_page/description_issue""), description, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:49,2021-01-11 15:24:49,0.001s,NOT_RUN
+"click(findTestObject(""issue_page/assigne/reza""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:49,2021-01-11 15:24:49,0.309s,PASSED
+"click(findTestObject(""issue_page/targetversion/oneID""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:49,2021-01-11 15:24:49,0.314s,PASSED
+"setText(findTestObject(""issue_page/estimated_time""), estimated, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:49,2021-01-11 15:24:50,0.608s,PASSED
+"click(findTestObject(""issue_page/storypoints/sp3""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:50,2021-01-11 15:24:50,0.312s,PASSED
+"click(findTestObject(""issue_page/create_btn""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 15:24:50,2021-01-11 15:24:53,3.055s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/wrapper_tracker""), 3)",Chrome 87.0.4280.141,,,2021-01-11 15:24:53,2021-01-11 15:24:54,0.697s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/flash_notice""), 3)",Chrome 87.0.4280.141,,,2021-01-11 15:24:54,2021-01-11 15:24:59,4.804s,FAILED

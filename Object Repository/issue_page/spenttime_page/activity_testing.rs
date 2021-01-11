@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wrapper_tracker</name>
+   <name>activity_testing</name>
    <tag></tag>
-   <elementGuidId>536af74d-3fbc-4a7a-b5c5-e761f7494064</elementGuidId>
+   <elementGuidId>f34ca15f-03e7-4db7-8eef-cb8144578dba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']</value>
+         <value>//option[contains(text(),'Testing')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

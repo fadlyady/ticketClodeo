@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wrapper_tracker</name>
+   <name>sp8</name>
    <tag></tag>
-   <elementGuidId>536af74d-3fbc-4a7a-b5c5-e761f7494064</elementGuidId>
+   <elementGuidId>f6bbf61f-9bd3-4dc6-ba6d-ee3d6ec58bd1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']</value>
+         <value>//select[@id='issue_agile_data_attributes_story_points']//option[@value='8']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

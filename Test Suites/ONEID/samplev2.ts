@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>samplev2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>6f576d43-c8f9-477d-bbfe-c312f9a6d0cd</testSuiteGuid>
+   <testCaseLink>
+      <guid>21d7f67a-056c-4650-bb2f-6fba164f8e2a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login_testcase/login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eea5eac3-7fb7-48b2-a4df-84a280f665e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OneID/rezha/feature_samplev2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5b3b8a44-5930-47fa-a425-83b0eeff3a12</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Eldo/satasamplev2</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>backlog</value>
+         <variableId>b3b8b826-8104-4bf3-a187-466447bc404e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tracker</value>
+         <variableId>d1fe3728-f9ac-4b1b-9ecb-a9ba3805a08e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>subject</value>
+         <variableId>184cbe74-2d94-4695-bc08-7717a5c32a92</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>991f5042-12b6-4638-9653-f9408f523c58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>assigne</value>
+         <variableId>a7379111-8659-4a1a-9652-6b6b52f56816</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>target version</value>
+         <variableId>c4b31708-c5ee-4707-a152-94905c21139c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>estimated</value>
+         <variableId>5bed0eed-13bd-4f7c-9c32-c264f36109b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5b3b8a44-5930-47fa-a425-83b0eeff3a12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>story points</value>
+         <variableId>69ffaef4-afe2-466c-af00-89912737f867</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

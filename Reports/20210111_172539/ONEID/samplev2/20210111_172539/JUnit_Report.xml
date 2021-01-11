@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="samplev2" time="72.255" tests="4" failures="1" errors="0">
+   <testsuite name="samplev2" tests="4" failures="1" errors="0" time="72.255" timestamp="2021-01-11 17:25:45" hostname="Eldo - LAPTOP-JS0M5C55" id="Test Suites/ONEID/samplev2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_172539\\ONEID\\samplev2\\20210111_172539"/>
+         <property name="logFiles" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_172539\\ONEID\\samplev2\\20210111_172539\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_172539\\ONEID\\samplev2\\20210111_172539\\1610360816303.png"/>
+         <property name="hostName" value="Eldo - LAPTOP-JS0M5C55"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.138.2"/>
+         <property name="sessionId" value="f9703a2b5dd97e1bd75273b0c6d7c229"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_testcase/login" time="22.992" classname="Test Cases/login_testcase/login" status="PASSED">
+         <system-out><![CDATA[2021-01-11 17:25:45 - [TEST_CASE][PASSED] - Test Cases/login_testcase/login: Test Cases/login_testcase/login
+
+2021-01-11 17:25:45 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://internal-redmine.clodeo.id/login'
+
+2021-01-11 17:25:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-11 17:25:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-11 17:26:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://internal-redmine.clodeo.id/login'
+
+2021-01-11 17:26:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login_page/login_container"), 5): Object 'Object Repository/login_page/login_container' is present
+
+2021-01-11 17:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/login_page/login_container' is present
+
+2021-01-11 17:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("login_page/username_field"), username): Text 'eldofadliadi' is set on object 'Object Repository/login_page/username_field'
+
+2021-01-11 17:26:04 - [MESSAGE][PASSED] - Text 'eldofadliadi' is set on object 'Object Repository/login_page/username_field'
+
+2021-01-11 17:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("login_page/pass_field"), password): Text 'eldo12345' is set on object 'Object Repository/login_page/pass_field'
+
+2021-01-11 17:26:05 - [MESSAGE][PASSED] - Text 'eldo12345' is set on object 'Object Repository/login_page/pass_field'
+
+2021-01-11 17:26:05 - [TEST_STEP][PASSED] - click(findTestObject("login_page/submit_login")): Object: 'Object Repository/login_page/submit_login' is clicked on
+
+2021-01-11 17:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/submit_login' is clicked on
+
+2021-01-11 17:26:07 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("login_page/flash_error"), 5): Web element with id: 'Object Repository/login_page/flash_error' located by 'By.xpath: //div[@id='flash_error']' is not present after '5' second(s)
+
+2021-01-11 17:26:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/login_page/flash_error' located by 'By.xpath: //div[@id='flash_error']' is not present after '5' second(s)
+
+2021-01-11 17:26:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("home_page/wrapper_home"), 5): Object 'Object Repository/home_page/wrapper_home' is present
+
+2021-01-11 17:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/wrapper_home' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OneID/rezha/feature_samplev2" time="18.365" classname="Test Cases/OneID/rezha/feature_samplev2" status="PASSED">
+         <system-out><![CDATA[2021-01-11 17:26:08 - [TEST_CASE][PASSED] - Test Cases/OneID/rezha/feature_samplev2: Test Cases/OneID/rezha/feature_samplev2
+
+2021-01-11 17:26:08 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:08 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("home_page/search_field"), backlog, CONTINUE_ON_FAILURE): Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 17:26:09 - [MESSAGE][PASSED] - Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 17:26:09 - [TEST_STEP][PASSED] - submit(findTestObject("home_page/search_field"), CONTINUE_ON_FAILURE): The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 17:26:14 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 17:26:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/add_subtask"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 17:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 17:26:15 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/add_subtask"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 17:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 17:26:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("issue_page/wrapper_issue"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 17:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 17:26:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/tracker/tracker_global"), tracker, false, CONTINUE_ON_FAILURE): All options with label 'Feature' are selected in object 'Object Repository/issue_page/tracker/tracker_global' 
+
+2021-01-11 17:26:18 - [MESSAGE][PASSED] - All options with label 'Feature' are selected in object 'Object Repository/issue_page/tracker/tracker_global' 
+
+2021-01-11 17:26:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:18 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2021-01-11 17:26:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-11 17:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/subject_issue"), subject, CONTINUE_ON_FAILURE): Text 'sample feature' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 17:26:23 - [MESSAGE][PASSED] - Text 'sample feature' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 17:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/description_issue"), description, CONTINUE_ON_FAILURE): Text 'sample feature' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 17:26:24 - [MESSAGE][PASSED] - Text 'sample feature' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 17:26:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/assigne/assigne_global"), assigne, false, CONTINUE_ON_FAILURE): All options with label 'Eldo Fadlyady' are selected in object 'Object Repository/issue_page/assigne/assigne_global' 
+
+2021-01-11 17:26:25 - [MESSAGE][PASSED] - All options with label 'Eldo Fadlyady' are selected in object 'Object Repository/issue_page/assigne/assigne_global' 
+
+2021-01-11 17:26:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/targetversion/targetversion_global"), targetversion, false, CONTINUE_ON_FAILURE): All options with label 'Sicepat OneID' are selected in object 'Object Repository/issue_page/targetversion/targetversion_global' 
+
+2021-01-11 17:26:25 - [MESSAGE][PASSED] - All options with label 'Sicepat OneID' are selected in object 'Object Repository/issue_page/targetversion/targetversion_global' 
+
+2021-01-11 17:26:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:25 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/estimated_time"), estimated, CONTINUE_ON_FAILURE): Text '3' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 17:26:26 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 17:26:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/storypoints/storypoint_global"), storypoint, false, CONTINUE_ON_FAILURE): All options with label '3' are selected in object 'Object Repository/issue_page/storypoints/storypoint_global' 
+
+2021-01-11 17:26:26 - [MESSAGE][PASSED] - All options with label '3' are selected in object 'Object Repository/issue_page/storypoints/storypoint_global' 
+
+2021-01-11 17:26:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [TEST_STEP][NOT_RUN] - closeBrowser(CONTINUE_ON_FAILURE): NOT_RUN: closeBrowser(CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser(CONTINUE_ON_FAILURE)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OneID/rezha/feature_samplev2" time="14.693" classname="Test Cases/OneID/rezha/feature_samplev2" status="PASSED">
+         <system-out><![CDATA[2021-01-11 17:26:26 - [TEST_CASE][PASSED] - Test Cases/OneID/rezha/feature_samplev2: Test Cases/OneID/rezha/feature_samplev2
+
+2021-01-11 17:26:26 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:26 - [TEST_STEP][PASSED] - setText(findTestObject("home_page/search_field"), backlog, CONTINUE_ON_FAILURE): Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 17:26:27 - [MESSAGE][PASSED] - Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 17:26:27 - [TEST_STEP][PASSED] - submit(findTestObject("home_page/search_field"), CONTINUE_ON_FAILURE): The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 17:26:29 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 17:26:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/add_subtask"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 17:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 17:26:30 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/add_subtask"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 17:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 17:26:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("issue_page/wrapper_issue"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 17:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 17:26:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/tracker/tracker_global"), tracker, false, CONTINUE_ON_FAILURE): All options with label 'Bug Fixing' are selected in object 'Object Repository/issue_page/tracker/tracker_global' 
+
+2021-01-11 17:26:32 - [MESSAGE][PASSED] - All options with label 'Bug Fixing' are selected in object 'Object Repository/issue_page/tracker/tracker_global' 
+
+2021-01-11 17:26:32 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:32 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:32 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2021-01-11 17:26:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-11 17:26:37 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/subject_issue"), subject, CONTINUE_ON_FAILURE): Text 'sample feature' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 17:26:38 - [MESSAGE][PASSED] - Text 'sample feature' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 17:26:38 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/description_issue"), description, CONTINUE_ON_FAILURE): Text 'sample feature' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 17:26:39 - [MESSAGE][PASSED] - Text 'sample feature' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 17:26:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/assigne/assigne_global"), assigne, false, CONTINUE_ON_FAILURE): All options with label 'Eldo Fadlyady' are selected in object 'Object Repository/issue_page/assigne/assigne_global' 
+
+2021-01-11 17:26:39 - [MESSAGE][PASSED] - All options with label 'Eldo Fadlyady' are selected in object 'Object Repository/issue_page/assigne/assigne_global' 
+
+2021-01-11 17:26:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/targetversion/targetversion_global"), targetversion, false, CONTINUE_ON_FAILURE): All options with label 'Sicepat OneID' are selected in object 'Object Repository/issue_page/targetversion/targetversion_global' 
+
+2021-01-11 17:26:40 - [MESSAGE][PASSED] - All options with label 'Sicepat OneID' are selected in object 'Object Repository/issue_page/targetversion/targetversion_global' 
+
+2021-01-11 17:26:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/estimated_time"), estimated, CONTINUE_ON_FAILURE): Text '5' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 17:26:41 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 17:26:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/storypoints/storypoint_global"), storypoint, false, CONTINUE_ON_FAILURE): All options with label '80' are selected in object 'Object Repository/issue_page/storypoints/storypoint_global' 
+
+2021-01-11 17:26:41 - [MESSAGE][PASSED] - All options with label '80' are selected in object 'Object Repository/issue_page/storypoints/storypoint_global' 
+
+2021-01-11 17:26:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [TEST_STEP][NOT_RUN] - closeBrowser(CONTINUE_ON_FAILURE): NOT_RUN: closeBrowser(CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser(CONTINUE_ON_FAILURE)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OneID/rezha/feature_samplev2" time="14.981" classname="Test Cases/OneID/rezha/feature_samplev2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OneID/rezha/feature_samplev2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-01-11 17:26:41 - [TEST_CASE][FAILED] - Test Cases/OneID/rezha/feature_samplev2: Test Cases/OneID/rezha/feature_samplev2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-01-11 17:26:41 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("home_page/search_field"), backlog, CONTINUE_ON_FAILURE): Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 17:26:42 - [MESSAGE][PASSED] - Text '4537' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 17:26:42 - [TEST_STEP][PASSED] - submit(findTestObject("home_page/search_field"), CONTINUE_ON_FAILURE): The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 17:26:44 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 17:26:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/add_subtask"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 17:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/add_subtask' is present
+
+2021-01-11 17:26:45 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/add_subtask"), CONTINUE_ON_FAILURE): Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 17:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 17:26:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("issue_page/wrapper_issue"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 17:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 17:26:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/tracker/tracker_global"), tracker, false, CONTINUE_ON_FAILURE): All options with label 'General' are selected in object 'Object Repository/issue_page/tracker/tracker_global' 
+
+2021-01-11 17:26:47 - [MESSAGE][PASSED] - All options with label 'General' are selected in object 'Object Repository/issue_page/tracker/tracker_global' 
+
+2021-01-11 17:26:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/tracker/feature_tracker"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:47 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2021-01-11 17:26:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-11 17:26:52 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/subject_issue"), subject, CONTINUE_ON_FAILURE): Text 'sample feature' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 17:26:53 - [MESSAGE][PASSED] - Text 'sample feature' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 17:26:53 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/description_issue"), description, CONTINUE_ON_FAILURE): Text 'sample feature' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 17:26:53 - [MESSAGE][PASSED] - Text 'sample feature' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 17:26:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/assigne/assigne_global"), assigne, false, CONTINUE_ON_FAILURE): All options with label 'Eldo Fadlyady' are selected in object 'Object Repository/issue_page/assigne/assigne_global' 
+
+2021-01-11 17:26:54 - [MESSAGE][PASSED] - All options with label 'Eldo Fadlyady' are selected in object 'Object Repository/issue_page/assigne/assigne_global' 
+
+2021-01-11 17:26:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("issue_page/targetversion/targetversion_global"), targetversion, false, CONTINUE_ON_FAILURE): All options with label 'Sicepat OneID' are selected in object 'Object Repository/issue_page/targetversion/targetversion_global' 
+
+2021-01-11 17:26:55 - [MESSAGE][PASSED] - All options with label 'Sicepat OneID' are selected in object 'Object Repository/issue_page/targetversion/targetversion_global' 
+
+2021-01-11 17:26:55 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:55 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/assigne/reza"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:55 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:55 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/targetversion/oneID"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:55 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/estimated_time"), estimated, CONTINUE_ON_FAILURE): Text '4' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 17:26:55 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 17:26:55 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("issue_page/storypoints/storypoint_global"), storypoint, false, CONTINUE_ON_FAILURE): Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+
+2021-01-11 17:26:56 - [MESSAGE][FAILED] - Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_172539\\ONEID\\samplev2\\20210111_172539\\1610360816303.png]]
+
+2021-01-11 17:26:56 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/storypoints/sp1"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/create_btn"), CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3, CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [TEST_STEP][NOT_RUN] - closeBrowser(CONTINUE_ON_FAILURE): NOT_RUN: closeBrowser(CONTINUE_ON_FAILURE)
+
+2021-01-11 17:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser(CONTINUE_ON_FAILURE)]]></system-out>
+         <system-err><![CDATA[2021-01-11 17:26:41 - [TEST_CASE][FAILED] - Test Cases/OneID/rezha/feature_samplev2: Test Cases/OneID/rezha/feature_samplev2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-11 17:25:45 - [TEST_SUITE][FAILED] - samplev2: Test Cases/OneID/rezha/feature_samplev2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-01-11 17:25:45 - [TEST_SUITE][FAILED] - samplev2: Test Cases/OneID/rezha/feature_samplev2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at Script1610360534485.run(Script1610360534485.groovy:51)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1210)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$10.call(Unknown Source)
+	at feature_samplev2.run(feature_samplev2:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610360739094.run(TempTestSuite1610360739094.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '14' of object 'Object Repository/issue_page/storypoints/storypoint_global' 
+	... 21 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 14
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JS0M5C55', ip: '192.168.138.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:309)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

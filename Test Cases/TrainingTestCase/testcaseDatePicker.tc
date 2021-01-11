@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sample untuk case datepicker</description>
+   <name>testcaseDatePicker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba1b787f-f387-496c-938c-a2bc61d2ac09</testCaseGuid>
+</TestCaseEntity>

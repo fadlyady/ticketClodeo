@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>bugfix_sp1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9587ce76-44e4-4b8e-9761-b074a0a74775</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f80bf39-71f6-42c1-aeb2-3c92c1167371</id>
+      <masked>false</masked>
+      <name>backlog</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d8da657-76a7-4f26-a48f-fb308fd48f01</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c66cbfba-c68e-4b55-8968-c5cf241eed00</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>785eb792-d814-4058-8c1d-c40cc372cc3f</id>
+      <masked>false</masked>
+      <name>estimatedtime</name>
+   </variable>
+</TestCaseEntity>

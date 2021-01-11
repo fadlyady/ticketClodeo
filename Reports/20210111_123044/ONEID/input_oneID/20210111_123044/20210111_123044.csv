@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+input_oneID,Chrome 87.0.4280.141,,,2021-01-11 12:30:50,2021-01-11 12:31:25,35.321s,FAILED
+,,,,,,,
+Test Cases/login_testcase/login,Chrome 87.0.4280.141,,,2021-01-11 12:30:50,2021-01-11 12:31:05,14.749s,PASSED
+openBrowser(url),Chrome 87.0.4280.141,,,2021-01-11 12:30:51,2021-01-11 12:31:00,9.809s,PASSED
+"verifyElementPresent(findTestObject(""login_page/login_container""), 5)",Chrome 87.0.4280.141,,,2021-01-11 12:31:00,2021-01-11 12:31:01,0.438s,PASSED
+"setText(findTestObject(""login_page/username_field""), username)",Chrome 87.0.4280.141,,,2021-01-11 12:31:01,2021-01-11 12:31:01,0.629s,PASSED
+"setText(findTestObject(""login_page/pass_field""), password)",Chrome 87.0.4280.141,,,2021-01-11 12:31:01,2021-01-11 12:31:02,0.624s,PASSED
+"click(findTestObject(""login_page/submit_login""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:02,2021-01-11 12:31:04,2.255s,PASSED
+"verifyElementNotPresent(findTestObject(""login_page/flash_error""), 5)",Chrome 87.0.4280.141,,,2021-01-11 12:31:04,2021-01-11 12:31:05,0.464s,PASSED
+"waitForElementPresent(findTestObject(""home_page/wrapper_home""), 5)",Chrome 87.0.4280.141,,,2021-01-11 12:31:05,2021-01-11 12:31:05,0.287s,PASSED
+,,,,,,,
+Test Cases/OneID/bugfix_sp1,Chrome 87.0.4280.141,,,2021-01-11 12:31:05,2021-01-11 12:31:22,16.926s,PASSED
+"callTestCase(findTestCase(""login_testcase/login""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 12:31:05,2021-01-11 12:31:05,0.002s,NOT_RUN
+"setText(findTestObject(""home_page/search_field""), ""4543"")",Chrome 87.0.4280.141,,,2021-01-11 12:31:05,2021-01-11 12:31:06,0.622s,PASSED
+"submit(findTestObject(""home_page/search_field""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:06,2021-01-11 12:31:11,5.131s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/wrapper_tracker""), 3)",Chrome 87.0.4280.141,,,2021-01-11 12:31:11,2021-01-11 12:31:12,0.697s,PASSED
+"click(findTestObject(""issue_page/add_subtask""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:12,2021-01-11 12:31:13,1.694s,PASSED
+"waitForElementPresent(findTestObject(""issue_page/wrapper_issue""), 3)",Chrome 87.0.4280.141,,,2021-01-11 12:31:13,2021-01-11 12:31:14,0.286s,PASSED
+"click(findTestObject(""issue_page/tracker/bugfix_tracker""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:14,2021-01-11 12:31:14,0.317s,PASSED
+delay(5),Chrome 87.0.4280.141,,,2021-01-11 12:31:14,2021-01-11 12:31:19,5.026s,PASSED
+"setText(findTestObject(""issue_page/subject_issue""), ""sample issue"")",Chrome 87.0.4280.141,,,2021-01-11 12:31:19,2021-01-11 12:31:20,0.642s,PASSED
+"setText(findTestObject(""issue_page/description_issue""), ""sample issue"")",Chrome 87.0.4280.141,,,2021-01-11 12:31:20,2021-01-11 12:31:20,0.601s,PASSED
+"click(findTestObject(""issue_page/assigne/darmadi""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:20,2021-01-11 12:31:21,0.512s,PASSED
+"click(findTestObject(""issue_page/targetversion/oneID""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:21,2021-01-11 12:31:21,0.309s,PASSED
+"setText(findTestObject(""issue_page/estimated_time""), ""2"")",Chrome 87.0.4280.141,,,2021-01-11 12:31:21,2021-01-11 12:31:22,0.606s,PASSED
+"click(findTestObject(""issue_page/storypoints/sp1""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:22,2021-01-11 12:31:22,0.312s,PASSED
+"click(findTestObject(""issue_page/create_btn""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:22,2021-01-11 12:31:22,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/OneID/bugfix_sp1,Chrome 87.0.4280.141,,,2021-01-11 12:31:22,2021-01-11 12:31:25,3.387s,FAILED
+"callTestCase(findTestCase(""login_testcase/login""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-11 12:31:22,2021-01-11 12:31:22,0.001s,NOT_RUN
+"setText(findTestObject(""home_page/search_field""), ""4543"")",Chrome 87.0.4280.141,,,2021-01-11 12:31:22,2021-01-11 12:31:23,0.609s,PASSED
+"submit(findTestObject(""home_page/search_field""))",Chrome 87.0.4280.141,,,2021-01-11 12:31:23,2021-01-11 12:31:25,2.374s,PASSED
+"verifyElementPresent(findTestObject(""issue_page/wrapper_tracker""), 3)",Chrome 87.0.4280.141,,,2021-01-11 12:31:25,2021-01-11 12:31:25,0.391s,FAILED

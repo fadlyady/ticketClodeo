@@ -16,17 +16,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.url)
+not_run: WebUI.callTestCase(findTestCase('login_testcase/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('login_page/login_container'), 5)
+WebUI.setText(findTestObject('home_page/search_field'), backlog)
 
-WebUI.setText(findTestObject('login_page/username_field'), GlobalVariable.username)
+WebUI.submit(findTestObject('home_page/search_field'))
 
-WebUI.setText(findTestObject('login_page/pass_field'), GlobalVariable.password)
+WebUI.verifyElementPresent(findTestObject('issue_page/wrapper_tracker'), 3)
 
-WebUI.click(findTestObject('login_page/submit_login'))
+WebUI.click(findTestObject('issue_page/add_subtask'))
 
-WebUI.verifyElementNotPresent(findTestObject('login_page/flash_error'), 5)
+WebUI.waitForElementPresent(findTestObject('issue_page/wrapper_issue'), 3)
 
-WebUI.waitForElementPresent(findTestObject('home_page/wrapper_home'), 5)
+WebUI.click(findTestObject('issue_page/tracker/bugfix_tracker'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('issue_page/subject_issue'), subject)
+
+WebUI.setText(findTestObject('issue_page/description_issue'), description)
+
+WebUI.click(findTestObject('issue_page/assigne/darmadi'))
+
+WebUI.click(findTestObject('issue_page/targetversion/oneID'))
+
+WebUI.setText(findTestObject('issue_page/estimated_time'), estimatedtime)
+
+WebUI.click(findTestObject('issue_page/storypoints/sp1'))
+
+not_run: WebUI.click(findTestObject('issue_page/create_btn'))
 

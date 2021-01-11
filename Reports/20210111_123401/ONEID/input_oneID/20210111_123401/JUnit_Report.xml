@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="input_oneID" time="46.063" tests="3" failures="0" errors="0">
+   <testsuite name="input_oneID" tests="3" failures="0" errors="0" time="46.063" timestamp="2021-01-11 12:34:07" hostname="Eldo - LAPTOP-JS0M5C55" id="Test Suites/ONEID/input_oneID">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_123401\\ONEID\\input_oneID\\20210111_123401"/>
+         <property name="logFiles" value="C:\\Users\\Eldo\\git\\ticketClodeo\\Reports\\20210111_123401\\ONEID\\input_oneID\\20210111_123401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Eldo - LAPTOP-JS0M5C55"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.138.2"/>
+         <property name="sessionId" value="205efd9e55d41c476a6f185d0806a113"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_testcase/login" time="15.303" classname="Test Cases/login_testcase/login" status="PASSED">
+         <system-out><![CDATA[2021-01-11 12:34:07 - [TEST_CASE][PASSED] - Test Cases/login_testcase/login: Test Cases/login_testcase/login
+
+2021-01-11 12:34:08 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://internal-redmine.clodeo.id/login'
+
+2021-01-11 12:34:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-11 12:34:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-11 12:34:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://internal-redmine.clodeo.id/login'
+
+2021-01-11 12:34:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login_page/login_container"), 5): Object 'Object Repository/login_page/login_container' is present
+
+2021-01-11 12:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/login_page/login_container' is present
+
+2021-01-11 12:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("login_page/username_field"), username): Text 'eldofadliadi' is set on object 'Object Repository/login_page/username_field'
+
+2021-01-11 12:34:18 - [MESSAGE][PASSED] - Text 'eldofadliadi' is set on object 'Object Repository/login_page/username_field'
+
+2021-01-11 12:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("login_page/pass_field"), password): Text 'eldo12345' is set on object 'Object Repository/login_page/pass_field'
+
+2021-01-11 12:34:19 - [MESSAGE][PASSED] - Text 'eldo12345' is set on object 'Object Repository/login_page/pass_field'
+
+2021-01-11 12:34:19 - [TEST_STEP][PASSED] - click(findTestObject("login_page/submit_login")): Object: 'Object Repository/login_page/submit_login' is clicked on
+
+2021-01-11 12:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/submit_login' is clicked on
+
+2021-01-11 12:34:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("login_page/flash_error"), 5): Web element with id: 'Object Repository/login_page/flash_error' located by 'By.xpath: //div[@id='flash_error']' is not present after '5' second(s)
+
+2021-01-11 12:34:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/login_page/flash_error' located by 'By.xpath: //div[@id='flash_error']' is not present after '5' second(s)
+
+2021-01-11 12:34:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("home_page/wrapper_home"), 5): Object 'Object Repository/home_page/wrapper_home' is present
+
+2021-01-11 12:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/wrapper_home' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OneID/bugfix_sp1" time="15.614" classname="Test Cases/OneID/bugfix_sp1" status="PASSED">
+         <system-out><![CDATA[2021-01-11 12:34:23 - [TEST_CASE][PASSED] - Test Cases/OneID/bugfix_sp1: Test Cases/OneID/bugfix_sp1
+
+2021-01-11 12:34:23 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE)
+
+2021-01-11 12:34:23 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE)
+
+2021-01-11 12:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("home_page/search_field"), backlog): Text '4543' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 12:34:23 - [MESSAGE][PASSED] - Text '4543' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 12:34:23 - [TEST_STEP][PASSED] - submit(findTestObject("home_page/search_field")): The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 12:34:27 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 12:34:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3): Object 'Object Repository/issue_page/wrapper_tracker' is present
+
+2021-01-11 12:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_tracker' is present
+
+2021-01-11 12:34:27 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/add_subtask")): Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 12:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 12:34:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("issue_page/wrapper_issue"), 3): Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 12:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 12:34:30 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/tracker/bugfix_tracker")): Object: 'Object Repository/issue_page/tracker/bugfix_tracker' is clicked on
+
+2021-01-11 12:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/tracker/bugfix_tracker' is clicked on
+
+2021-01-11 12:34:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-11 12:34:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-11 12:34:35 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/subject_issue"), subject): Text 'sample 1' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 12:34:36 - [MESSAGE][PASSED] - Text 'sample 1' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 12:34:36 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/description_issue"), description): Text 'sample 1' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 12:34:37 - [MESSAGE][PASSED] - Text 'sample 1' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 12:34:37 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/assigne/darmadi")): Object: 'Object Repository/issue_page/assigne/darmadi' is clicked on
+
+2021-01-11 12:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/assigne/darmadi' is clicked on
+
+2021-01-11 12:34:37 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/targetversion/oneID")): Object: 'Object Repository/issue_page/targetversion/oneID' is clicked on
+
+2021-01-11 12:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/targetversion/oneID' is clicked on
+
+2021-01-11 12:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/estimated_time"), estimatedtime): Text '2' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 12:34:38 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 12:34:38 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/storypoints/sp1")): Object: 'Object Repository/issue_page/storypoints/sp1' is clicked on
+
+2021-01-11 12:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/storypoints/sp1' is clicked on
+
+2021-01-11 12:34:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/create_btn")): NOT_RUN: click(findTestObject("issue_page/create_btn"))
+
+2021-01-11 12:34:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/create_btn"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OneID/bugfix_sp1" time="14.085" classname="Test Cases/OneID/bugfix_sp1" status="PASSED">
+         <system-out><![CDATA[2021-01-11 12:34:38 - [TEST_CASE][PASSED] - Test Cases/OneID/bugfix_sp1: Test Cases/OneID/bugfix_sp1
+
+2021-01-11 12:34:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE)
+
+2021-01-11 12:34:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login_testcase/login"), [:], STOP_ON_FAILURE)
+
+2021-01-11 12:34:38 - [TEST_STEP][PASSED] - setText(findTestObject("home_page/search_field"), backlog): Text '4552' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 12:34:39 - [MESSAGE][PASSED] - Text '4552' is set on object 'Object Repository/home_page/search_field'
+
+2021-01-11 12:34:39 - [TEST_STEP][PASSED] - submit(findTestObject("home_page/search_field")): The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 12:34:41 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/home_page/search_field' is submitted
+
+2021-01-11 12:34:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("issue_page/wrapper_tracker"), 3): Object 'Object Repository/issue_page/wrapper_tracker' is present
+
+2021-01-11 12:34:42 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_tracker' is present
+
+2021-01-11 12:34:42 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/add_subtask")): Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 12:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/add_subtask' is clicked on
+
+2021-01-11 12:34:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("issue_page/wrapper_issue"), 3): Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 12:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/issue_page/wrapper_issue' is present
+
+2021-01-11 12:34:44 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/tracker/bugfix_tracker")): Object: 'Object Repository/issue_page/tracker/bugfix_tracker' is clicked on
+
+2021-01-11 12:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/tracker/bugfix_tracker' is clicked on
+
+2021-01-11 12:34:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-11 12:34:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-11 12:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/subject_issue"), subject): Text 'sample 2' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 12:34:50 - [MESSAGE][PASSED] - Text 'sample 2' is set on object 'Object Repository/issue_page/subject_issue'
+
+2021-01-11 12:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/description_issue"), description): Text 'sample 2' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 12:34:51 - [MESSAGE][PASSED] - Text 'sample 2' is set on object 'Object Repository/issue_page/description_issue'
+
+2021-01-11 12:34:51 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/assigne/darmadi")): Object: 'Object Repository/issue_page/assigne/darmadi' is clicked on
+
+2021-01-11 12:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/assigne/darmadi' is clicked on
+
+2021-01-11 12:34:51 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/targetversion/oneID")): Object: 'Object Repository/issue_page/targetversion/oneID' is clicked on
+
+2021-01-11 12:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/targetversion/oneID' is clicked on
+
+2021-01-11 12:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("issue_page/estimated_time"), estimatedtime): Text '4' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 12:34:52 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/issue_page/estimated_time'
+
+2021-01-11 12:34:52 - [TEST_STEP][PASSED] - click(findTestObject("issue_page/storypoints/sp1")): Object: 'Object Repository/issue_page/storypoints/sp1' is clicked on
+
+2021-01-11 12:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/issue_page/storypoints/sp1' is clicked on
+
+2021-01-11 12:34:52 - [TEST_STEP][NOT_RUN] - click(findTestObject("issue_page/create_btn")): NOT_RUN: click(findTestObject("issue_page/create_btn"))
+
+2021-01-11 12:34:52 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("issue_page/create_btn"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-11 12:34:07 - [TEST_SUITE][PASSED] - input_oneID: Test Cases/OneID/bugfix_sp1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
